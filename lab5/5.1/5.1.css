@@ -1,0 +1,28 @@
+body{
+    margin: auto;
+    width: 95%;
+    padding: 1px;
+}
+
+footer{
+    padding-left: 1px;
+    margin: auto;
+}
+
+h1{
+    color: black;
+}
+
+button{
+    background-color: green;
+    border: none;
+    box-shadow: gold 1px 0px 0px;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightblue;
+}

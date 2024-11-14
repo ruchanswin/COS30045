@@ -1,0 +1,54 @@
+body{
+    margin: auto;
+    width: 95%;
+    padding: 1px;
+}
+
+footer{
+    padding-left: 1px;
+    margin: auto;
+}
+
+h1{
+    color: black;
+}
+
+#Update{
+    background-color: lightblue;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#Update:hover{
+    background-color: green;
+}
+
+#Tran1{
+    background-color: gold;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#Tran1:hover{
+    background-color: yellowgreen;
+}
+
+#Tran2{
+    background-color: darkorange;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#Tran2:hover{
+    background-color: khaki;
+}

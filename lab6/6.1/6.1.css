@@ -1,0 +1,19 @@
+
+#Add {
+    border-radius: 10px;
+    color: black;
+    border-color: lightblue;
+    background-color: lightblue;
+}
+
+#Remove {
+    border-radius: 10px;
+    color: black;
+    border-color: orange;
+    background-color:orange;
+}
+
+
+#Add:hover, #Remove:hover {
+    background-color: white;
+}

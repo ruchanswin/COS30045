@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Data Visualisation Exercise 1" />
+    <meta name="keywords" content="HTML CSS" />
+    <meta name="author" content="Minh Nguyen" />
+
+    <title>Drawing Shapes</title>
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <style>
+        figcaption{
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+  </head>
+
+  <body class="container mx-auto py-6 flex flex-col items-center h-screen">
+    <main class="prose flex-1">
+      <h1>Drawing shapes with SVG</h1>
+      <figure>
+        <svg width="500" height="60" style="background-color: darkblue">
+          <g transform="scale (1, -1)" transform-origin="center">
+            <rect x="0" y="0" width="50" height="40" fill="rgb(254 249 195)" />
+            <rect x="55" y="0" width="50" height="27" fill="rgb(254 240 138)" />
+            <rect x="110" y="0" width="50" height="11" fill="rgb(253 224 71)" />
+            <rect x="165" y="0" width="50" height="9" fill="rgb(250 204 21)" />
+            <rect x="220" y="0" width="50" height="3" fill="rgb(234 179 8)" />
+            <rect x="275" y="0" width="50" height="2" fill="rgb(234 179 8)" />
+            <rect x="330" y="0" width="50" height="2" fill="rgb(161 98 7)" />
+          </g>
+        </svg>
+        <figcaption>Pet Ownership in 2019</figcaption>
+      </figure>
+    </main>
+    <footer style="color:grey">COS30045 Data Visualisation<br>Minh Nguyen<br>Semester 1 2024</footer>
+  </body>
+</html>

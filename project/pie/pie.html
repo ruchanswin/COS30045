@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+    <title>Data Visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.6.0/d3.min.js"></script>
+    <script src="pie.js"></script>
+    <link rel="icon" type="image/png" href="chart-icon-color.png">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+</head>
+
+<div class="mx-auto col-12 text-center">
+    <h5 class="mt-5 mb-0">Do you like mayonnaise?</h5>
+    <div id="pie" class="mt-4 mb-0"></div>
+    <div class="legend-pie col-12 mb-2">
+        <div class="d-inline"><i class="fas fa-circle strongly-like"></i> Strongly like</div>
+        <div class="d-inline mx-3"><i class="fas fa-circle like"></i> Like</div>
+        <div class="d-md-inline">
+            <div class="d-inline mr-3"><i class="fas fa-circle dislike"></i> Dislike</div>
+            <div class="d-inline mr-3"><i class="fas fa-circle strongly-dislike"></i> Strongly dislike</div>
+            <div class="d-inline"> <i class="fas fa-circle unsure"></i> Unsure</div>
+        </div>
+    </div>
+    <small>Source: <a href="https://today.yougov.com/opi/surveys/results#/survey/a085d735-9fd0-11e8-8aee-03f6e3eec9c1/question/f2ac4524-9fd0-11e8-9d11-d9c67713599d/age"
+        target="blank">YouGov</a></small>      
+</div>
+<div class="buttons text-center col-12 mt-1">
+    <button id="group1" class="btn btn-secondary my-1 col-4 col-md-3 col-lg-2">2017</button>
+    <button id="group2" class="btn btn-secondary my-1 col-4 col-md-3 col-lg-2">2018</button>
+    <button id="group3" class="btn btn-secondary my-1 col-4 col-md-3 col-lg-2">2019</button>
+    <button id="group4" class="btn btn-secondary my-1 col-4 col-md-3 col-lg-2">2020</button>
+    <button id="group5" class="btn btn-secondary my-1 col-4 col-md-3 col-lg-2">2021</button>
+</div>

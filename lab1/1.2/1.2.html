@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Task 1.2</title>
+        <meta name="author" content="Minh Nguyen">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="description" content="Task 1.2">
+        <link rel="stylesheet" href="1.2.css">
+    </head>
+    <body>
+        <h1>Pets and the Pandemic</h1>
+        <h2>Minh Nguyen</h2>
+    
+        A report from Animal Medicines Australia (AMA) has found that many Australians took the opportunity to 
+        introduce a pet into their household during the pandemic. Their survey indicated that there was a 
+        significant increase in the percent of households taking in <em>a new dog, fish or bird</em>. Their research 
+        also indicated that pets had a number of <strong>positive influences</strong> on their lives such as:
+        <ul>
+        <li>Companionship</li>
+        <li>Better mental health</li>
+        <li>Joy and happiness.</li>
+        </ul>
+        
+            <table>
+                <thead>
+                    <caption class="table-caption">Most popular pet owned by Australians in 2019</caption>
+                    <tr>
+                        <td>
+                            <button id="2019" onclick="display2019Image()">2019</button>
+                            <button id="2021" onclick="display2021Image()">2021</button>
+                            <button id="2019-2021" onclick="display20192021Image()">2019-2021</button>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img class="image" id="0" src="2019.png" alt="Statistics for Australian pet ownership for 2019">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        <footer>COS30004 Semester 1 2024<br>Data Visualisation</footer>
+    </body>
+    
+    <script src="1.2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="../script/menu.js"></script>
+    <link rel="stylesheet" href="../script/menu.css">
+
+</html>
